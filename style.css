@@ -1,0 +1,124 @@
+*/{
+ padding: 0;
+ margin: 0;
+}
+
+:root{
+    --cor1: #E6CA1C;
+    --cor2: #9DE61C;
+    --cor3: #E6E21B;
+    --cor4: #E6AD09;
+    --cor5: #48E61C;
+    --cor6: #E6E365;
+}
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+    border: 3px solid black;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(imagens/imagem_cabecalho.jpg);
+    background-size: cover;
+    border: 3px solid green;
+    height: 600px;
+}
+
+#passaro_vermelho{
+    width: 300px;
+}
+
+.div_header1, .div_header2{
+    border: 3px solid palevioletred;
+}
+#header-texto{
+    color: var(--cor5);
+    font-size: 29px;
+    font-weight: 900;
+    margin: 350px 0 0;
+}
+.div_header2{
+    width: 30%;
+    display: block;
+    flex-wrap: wrap;
+}
+.navegador{
+    display: flex;
+    border: 3px solid rgb(150, 112, 216);   
+    justify-content: flex-end; 
+}
+.hearder_nav-link{
+    color: var(--cor5);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid rgb(60, 249, 70);
+}
+
+.hearder_nav-link:hover{
+    color: var(--cor3);
+    background-color: var(--cor5);
+}
+.hearder_nav-2link{
+    display: block;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: smaller;
+    color: var(--cor3);
+    background-color: var(--cor5);
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav_2, #nav_3, #nav_4, #nav_5, #nav_7{
+    border: 3px solid red;
+    display: block;
+
+}
+#hearder_nav-link-nav_2{
+    display: flex;
+}
+#hearder_nav-link-nav_2:hover  #nav_2{
+    display: block;
+}
+#hearder-figure{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: 3px solid red;
+}
+.hearder_imagem-icon{
+    width: 25px;
+    height: 15px;
+    margin: 10px 20px 10px 0;
+    border: 3px solid red;
+}
+
+
+#categorias{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid orchid;
+    margin: 100px 0;
+}
+.categorias-escolha{
+    background-color: var(--cor5);
+    color: var(--cor3);
+    font-weight: 900;
+    letter-spacing: 1px;
+    width: 160px;
+    height: 160px;
+    border-radius: 55%;
+    border: 3px solid yellow;
+}
+.categorias-escolha-texto{
+    margin: 60px 0;
+    text-align: center;
+}
